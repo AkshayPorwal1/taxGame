@@ -1,0 +1,17 @@
+<mat-toolbar class="custom-toolbar">
+    <div>
+        <span>My App</span>
+        <span class="example-spacer"></span>
+    </div>
+    <div>
+        <ul class="navigation-bar" *ngIf="!isMobile">
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Services</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        <button mat-icon-button class="example-icon" *ngIf="isMobile">
+            <mat-icon>menu</mat-icon>
+        </button>
+    </div>
+</mat-toolbar>
