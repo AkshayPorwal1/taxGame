@@ -1,0 +1,52 @@
+.file-upload-container {
+    text-align: center;
+    margin: 20px;
+    color: #fff; /* Set text color to light color */
+  }
+  
+  .drop-area {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    cursor: pointer;
+    position: relative;
+    background-color: #2d2d2d; /* Set background color to dark color */
+  }
+  
+  .label-container label {
+    display: block;
+    background-color: #3d3d3d; /* Darker background color for label */
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .file-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .file-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3d3d3d; /* Darker background color for file item */
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .delete-button {
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #d4380d;
+  }
+  
+  .error {
+    color: red;
+  }
+  
